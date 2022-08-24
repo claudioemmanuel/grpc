@@ -1,12 +1,10 @@
-module example.com/m/v2
+module github.com/claudioemmanuel/grpc
 
 go 1.18
 
 require google.golang.org/grpc v1.49.0
 
-require (
-	github.com/golang/protobuf v1.5.2
-)
+require github.com/golang/protobuf v1.5.2
 
 require (
 	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
